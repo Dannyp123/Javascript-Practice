@@ -1,0 +1,12 @@
+{
+  "name": "starting-js",
+  "version": "1.0.0",
+  "description": "Unit tests to get the Base Camp Students up and running with JS",
+  "main": "index.js",
+  "repository": "https://github.com/BaseCampCoding/starting-js",
+  "author": "Nate Clark",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
