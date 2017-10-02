@@ -6,7 +6,11 @@
   "repository": "https://github.com/BaseCampCoding/starting-js",
   "author": "Nate Clark",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
