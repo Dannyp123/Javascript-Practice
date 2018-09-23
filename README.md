@@ -30,3 +30,5 @@ For your workflow, I'd suggest keeping terminal and editor open side-by-side and
 running `yarn test --watch`. This command tells yarn to rerun your tests
 anytime you save a file.
 
+To test only one file you can run `yarn test objects.test.js` and to test only
+one group of tests inside a file you can run `yarn test objects.test.js -t arrayToObject`.

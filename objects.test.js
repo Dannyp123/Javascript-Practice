@@ -1,5 +1,19 @@
 const objects = require('./objects.js');
 
+describe('arrayToObject', function() {
+  test('[1, 2, 3] becomes { "0": 1, "1": 2, "2": 3 }', function() {
+    expect(objects.arrayToObject([1, 2, 3])).toEqual({ "0": 1, "1": 2, "2": 3 });
+  });
+
+  test('["test"] becomes { "0": "test" }', function() {
+    expect(objects.arrayToObject(["test"])).toEqual({ "0": "test" });
+  });
+
+  test('[] becomes {}', function() {
+    expect(objects.arrayToObject([])).toEqual({});
+  });
+});
+
 describe('readInventory', function() {
     test('the empty string should produce an empty inventory', function() {
         expect(objects.readInventory('')).toEqual({});

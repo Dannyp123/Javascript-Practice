@@ -1,10 +1,16 @@
+// (Number, Number) -> Number
+// Returns the sum of a and b.
 function add(a, b) {}
 
+// (Number) -> Number
+// Returns x multiplied by 2.
 function double(x) {}
 
+// (Number, Number, Number) -> Number
+// Returns the product of x, y, and z.
 function multThree(x, y, z) {}
 
-// (int, int, int) -> int
+// (Int, Int, Int) -> Int
 // Returns the total earnings provided the number of A, B, and C class seats sold.
 // important information:
 //     Class A seats cost $15.
@@ -12,22 +18,25 @@ function multThree(x, y, z) {}
 //     Class C seats cost $9.
 function earnings(a, b, c) {}
 
-// return True iff both x and y are true
+// (Bool, Bool) -> Bool
+// Returns true if both x and y are true.
 function both(x, y) {}
 
 // (Int, Bool) -> String
 // Returns 'walk' if the user should walk
 // and 'drive' if the user should drive to their destination.
 // The user should walk if it is nice weather
-// and the distance is less than a quarter mile.
+// and the distance is a quarter mile or less.
 function walkOrDrive(miles, isNiceWeather) {}
 
+// (Int, Number) -> String
 // Return 'Densely Populated' if the land density is greater than 100,
 // otherwise retuurn 'Sparsely Populated'.
 function howPopulated(population, landArea) {}
 
-// Int -> String
+// (Int) -> String
 // Return the appropriate number of stars for the users score.
+// Example: '***' means 3 stars.
 // 1 stars for scores less than 1000 points
 // 2 stars for scores less than 5000 points
 // 3 stars for scores less than 8000 points
